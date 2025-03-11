@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício HTML</title>
+
+</head>
+<body>
+    <div id="divRed">
+        <img id="imgHeader" src="img/intelecto.webp" alt="intelecto" width="300px">
+        <header>
+            <h1>Escola de Programação</h1><br>
+        </header>
+    </div>
+    <div id="div2">
+        <table border="2" bordercolor="black" cellpadding="10" cellspacing="0">
+            <!--cellpadding espaço interno cellspacing espaço entre os quadrados-->
+            
+            <tr><!--cria uma linha -->
+                <th bgcolor="red" >Curso</th><!--cria uma linha no cabeçalho da coluna -->
+                <th bgcolor="red">Conteúdo</th>
+                <th bgcolor="red">Duração</th>
+            </tr>
+            <tr><!--cria uma linha abaixo da coluna anterior-->
+                <td>1</td><!--escreve dentro da linha da coluna acima-->
+                <td>Programador Front-end</td>
+                <td>12 meses</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>programador Back-end</td>
+                <td>12meses</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>programador Full-Stack</td>
+                <td>16meses</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>programação com IA</td>
+                <td>4meses</td>
+            </tr>
+        </table>
+    </div>
+    <div id="divRed">
+        <form action="cursos.html" method="get" ><!--para formúlario de cadastro utilize sempre o method post-->
+            <fieldset>
+                <legend>Insira aqui seus dados</legend>
+                <label for="nome">Nome </label><input type="text" name="nome" id="" placeholder="digite seu nome"><br><br>
+                <label for="email">Email </label><input type="email" name="email" id="" placeholder="digite seu email"><br><br>
+                <label for="tel">Telefone </label><input type="tel" name="tel" id="" placeholder="digite seu telefone"><br><br>
+                <label for="password">Senha </label><input type="password" name="password" id="" placeholder="digite sua senha">
+                <button type="submit">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <h3>Desenvolvido por: Weslen.O.Santos/ESCOLA INTELECTO.</h3>
+    </footer>
+</body>
+</html>

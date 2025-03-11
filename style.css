@@ -1,0 +1,30 @@
+
+body{
+    background-color: red;
+}
+#imgHeader{
+    padding: 10px 10px;
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+#div2{
+    padding: 20px 20px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    background-color: white;
+}
+#divRed{
+    color: white;
+}
+th{
+    color: white;
+}
+fieldset{
+    padding: 20px 20px;
+}
